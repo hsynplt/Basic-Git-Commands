@@ -9,8 +9,8 @@ GIT : Version Control System.
 
  - GIT USER CONTROL:
 
-    git config --global --list    			        # The user controls.
-    git config --global user.name "user name"      	# It is applied if the user information does not appear in the above command. Defines the username.
+    git config --global --list                      # The user controls.
+    git config --global user.name "user name"       # It is applied if the user information does not appear in the above command. Defines the username.
     git config --global user.email "email"          # Defines the e-mail address.
 
     
