@@ -17,28 +17,28 @@ GIT : Version Control System.
     
  - GIT BASIC COMMANDS :
  
-   git init		          			                # Create a repository.
-   git add .                      		        	# Adds all files to the project. For a single file, the "file name" is written instead of a period.
-   git commit -m "New comment"   			        # Saves the change in the project to the local repository.
-   git log		          			                # It allows us to view which commits have been made in the project.
-   git push						                    # It is the command that transmits the committed changes to the remote server.
-   git pull						                    # It is used to get the most up-to-date version of the project.
-   git clone <repository-url>			          	# It allows to copy the project from the remote server to the computer.
-   git checkout -b <branchname>			         	# It allows to create a new branch.
-   git tag <tagversion>					            # It allows to create a new tag.
-   git fetch					                	# It downloads the information of the branches on the remote server to our local.
-   git merge <branchname> 				            # Allows merging branches.
-   git status						                # Changes made; Shows which branch the added or deleted files are in.
+   git init                                         # Create a repository.
+   git add .                      		               	# Adds all files to the project. For a single file, the "file name" is written instead of a period.
+   git commit -m "New comment"   			                # Saves the change in the project to the local repository.
+   git log		          			                           # It allows us to view which commits have been made in the project.
+   git push						                                   # It is the command that transmits the committed changes to the remote server.
+   git pull						                                   # It is used to get the most up-to-date version of the project.
+   git clone <repository-url>			                   	# It allows to copy the project from the remote server to the computer.
+   git checkout -b <branchname>			                 	# It allows to create a new branch.
+   git tag <tagversion>					                        # It allows to create a new tag.
+   git fetch					                                  	# It downloads the information of the branches on the remote server to our local.
+   git merge <branchname> 				                      # Allows merging branches.
+   git status						                                 # Changes made; Shows which branch the added or deleted files are in.
 
 
  - OTHER GIT COMMANDS :
- 
-   git --version                  			        # Shows the Git version. In this way, you will also know if Git is installed on the system.
-   git --help                     			        # Shows the Git help page
-   git remote -v                 			        # Shows the remote repository address
-   git diff <branchName> <branchname>		        # Shows the differences between the two branches.
-   git checkout <branchname>                		# Switches to the named branch.
+   
+   git --version                  			               # Shows the Git version. In this way, you will also know if Git is installed on the system.
+   git --help                     			               # Shows the Git help page
+   git remote -v                 			                # Shows the remote repository address
+   git diff <branchName> <branchname>		             # Shows the differences between the two branches.
+   git checkout <branchname>                		      # Switches to the named branch.
    git remote add origin <repository-url>           # It allows to connect the repository on the remote server to the local.
-   git revert <commitID>              			    # Goes back to the previous commit.
-   git reset --hard <commitID>        		        # It deletes the commit and returns accordingly.
+   git revert <commitID>              			           # Goes back to the previous commit.
+   git reset --hard <commitID>        		            # It deletes the commit and returns accordingly.
  
